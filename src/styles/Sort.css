@@ -1,0 +1,26 @@
+.sort {
+  display: flex;
+  color: #ffffff;
+  margin: 20px 20px 20px 60px;
+  justify-content: flex-start;
+}
+
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  width: 80px;
+  background-color: #17141F;
+  color: #ffffff;
+  border-color: #6441A4;
+  outline-color: #6441A4;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+@media only screen and (max-width: 680px) {
+  select {
+    height: 25px;
+  }
+}

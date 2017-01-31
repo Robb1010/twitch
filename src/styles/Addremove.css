@@ -1,0 +1,36 @@
+.add_div {
+  display: flex;
+  margin-left: 63px;
+  justify-content: flex-start;
+}
+
+input {
+  width: 120px;
+  background-color: #17141F;
+  color: #ffffff;
+  border-color: #6441A4;
+  outline-color: #6441A4;
+  height: 20px;
+  border-width: 1px;
+  border-style: solid;
+}
+
+.add {
+  box-shadow: 0 0 4 #555;
+  height: 25px;
+  width: 50px;
+  border-radius: 3px;
+  background-color: #4b3c9c;
+  color: #ffffff;
+  border-style: none;
+}
+
+@media only screen and (max-width: 680px) {
+  input {
+    width: 50%;
+    height: 20px;
+  }
+  .add {
+    height: 25px;
+  }
+}
