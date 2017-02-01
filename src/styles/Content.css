@@ -2,7 +2,7 @@ ul {
   display: flex;
   flex-direction: column-reverse;
  margin-left: 40px;
- padding: 0px;
+ padding: 0;
 }
 
 li {
@@ -12,7 +12,7 @@ li {
 }
 
 .listed {
-  width: 670px;
+  width: 580px;
   background-color: #ffffff;
   color: #4b3c9c;
   border-radius: 1.5%;
@@ -74,11 +74,26 @@ a {
   box-shadow: 2px 2px 5px #555;
 }
 
-@media only screen and (max-width: 680px) {
+@media only screen and (max-width: 780px) {
+
   li {
-    margin: 5px;
+    margin: 0;
+    padding-bottom: 5px;
   }
+
+  .listed {
+    max-width: 94%;
+    margin-left: 2%;
+    margin-right: 1%;
+  }
+
   ul {
-    margin-left: 8px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  html, body {
+      max-width: 100%;
+      overflow-x: hidden;
   }
 }

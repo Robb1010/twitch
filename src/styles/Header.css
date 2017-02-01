@@ -1,11 +1,10 @@
 .head {
   background-color: #6441A4;
-  max-width: 100%;
-  margin: 0 auto;
+  margin: 0;
   font-weight: bold;
   color: #ffffff;
   height: 60px;
-  box-shadow: 0px 0px 5px #000000;
+  box-shadow: 0 0 5px #000000;
   padding-top: 18px;
   padding-left: 10px;
 }

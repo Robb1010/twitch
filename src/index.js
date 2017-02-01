@@ -6,7 +6,7 @@ import Sort from './Sort';
 import './styles/index.css';
 
 ReactDOM.render(
-  <div>
+  <div className="all">
   <Header/>
   <Sort/>
   <Content/>

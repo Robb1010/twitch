@@ -5,7 +5,7 @@
 }
 
 input {
-  width: 120px;
+  max-width: 120px;
   background-color: #17141F;
   color: #ffffff;
   border-color: #6441A4;
@@ -25,9 +25,9 @@ input {
   border-style: none;
 }
 
-@media only screen and (max-width: 680px) {
+@media only screen and (max-width: 780px) {
   input {
-    width: 50%;
+    width: 120px;
     height: 20px;
   }
   .add {

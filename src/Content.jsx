@@ -76,7 +76,7 @@ class Content extends Component {
 
   handleDelete(i, index) {
     var id = '#' + i;
-    $(id).slideUp(300);
+    $(id).fadeOut(300);
     setTimeout(function() {
     const arr = this.state.streamers;
     const strIndex = arr.indexOf(i);
